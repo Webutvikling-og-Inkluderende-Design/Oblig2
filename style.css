@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Lato";
+  src: url();
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        
+      }
+    
+}
