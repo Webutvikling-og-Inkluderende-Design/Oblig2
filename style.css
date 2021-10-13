@@ -10,33 +10,99 @@
 
 /******    SCREEN < 600px   ******/
 @media only screen and (max-width: 600px) {
-    body {
-        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-        font-size: 1.2rem;
-        font-family: "lato", sans-serif;
-      }
+  body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-size: 1.2rem;
+    font-family: "lato", sans-serif;
+  }
 
-      header {
-        height: 55vh;
-        background-image: url(assets/img/studentsbg.png);
-        
+  header {
+    height: 55vh;
+    padding: 2rem;
+    text-align: center;
+    background-image: url(assets/img/studentsbg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    padding-inline-start: 0;
+    background-position: center top;
+  }
 
-      }
+  header > div {
+    width: 95vw;
+    position: absolute;
+    top: 4rem;
+    left: 2.5vw;
+    right: 2.5vw;
+    background-color: #c5192d;
+    color: white;
+    text-align: center; 
+  }
 
-      h1 {
-        font-size: 4rem;
-        font-family: "montserrat", sans-serif;
-      }
-      h2 {
-        font-size: 2.2rem;
-        font-family: "Montserrat", sans-serif;
-      }
-      p {
-        max-width: 70ch; /*Gjør denne noe?*/
-        line-height: 1.5;
-      }
+  main {
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px 0 darkgrey;
+  }
 
+  #intro-container {
+    padding: 0 2rem 2rem 2rem;
+    margin: 0.5rem;
+    background-color: #c5192d;
+  }
+
+  ul {
+    padding-inline-start: 0;
+  }
+
+  ul > li {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+  }
     
+  ul > li:first-child::before {
+    width: 1rem;
+    margin: 1rem;
+    content: "\1F64C";
+  }
+
+  ul > li:nth-child(2)::before {
+    width: 1rem;
+    margin: 1rem;
+    content: "\1F3EB";
+  }
+    
+  li:nth-child(3)::before {
+    width: 1rem;
+    margin: 1rem;
+    content: "\1F4DA";
+  }
+
+  h1 {
+    padding: 0 2rem;
+    font-size: 4rem;
+    font-family: "montserrat", sans-serif;
+  }
+
+  h2 {
+    padding: 2rem 2rem 0 2rem;
+    font-size: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  p {
+    padding: 0 2rem;
+    max-width: 70ch;
+    line-height: 1.5;
+  }
+
+  img {
+    padding: 0 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
 }
 
 
