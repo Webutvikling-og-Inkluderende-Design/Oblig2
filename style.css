@@ -16,6 +16,13 @@
         font-family: "lato", sans-serif;
       }
 
+      header {
+        height: 55vh;
+        background-image: url(assets/img/studentsbg.png);
+        
+
+      }
+
       h1 {
         font-size: 4rem;
         font-family: "montserrat", sans-serif;
@@ -23,6 +30,10 @@
       h2 {
         font-size: 2.2rem;
         font-family: "Montserrat", sans-serif;
+      }
+      p {
+        max-width: 70ch; /*Gjør denne noe?*/
+        line-height: 1.5;
       }
 
     
