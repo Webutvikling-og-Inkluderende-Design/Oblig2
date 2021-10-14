@@ -175,8 +175,8 @@ footer > p {
 
   header > div {
     width: 95vw;
-    position: absolute;
-    top: 4rem;
+    position: relative;
+    top: 40%;
     left: 2.5vw;
     right: 2.5vw;
     background-color: #c5192d;
@@ -195,6 +195,7 @@ footer > p {
     columns: 2;
     background-image: conic-gradient(whitesmoke 0deg 180deg, #c5192d 180deg 360deg);
     border-bottom: 0.1px solid #c3cfe2;
+    margin-top: 20%;
 
   }
 
