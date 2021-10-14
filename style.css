@@ -146,6 +146,7 @@ footer > p {
     text-align: center; 
     background-color: #c5192d;
     align-content: center;
+    margin-bottom: -20px;
   }
 
 /******    SCREEN 600px - 960px ******/
@@ -292,6 +293,7 @@ footer > p {
     align-content: center;
     width: 85vw;
     margin: auto;
+    margin-bottom: -15px;
   }
 }
 
@@ -439,5 +441,6 @@ footer > p {
     align-content: center;
     width: 70vw;
     margin: auto;
+    margin-bottom: -24px;
   }
 }
