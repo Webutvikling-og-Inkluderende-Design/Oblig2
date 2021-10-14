@@ -86,6 +86,7 @@ footer > p {
   header h1 {
     text-align: center;
     padding: 4rem 2rem 0 2rem;
+    overflow-wrap: break-word;
   }
   header p {
     padding-bottom: 2rem;
