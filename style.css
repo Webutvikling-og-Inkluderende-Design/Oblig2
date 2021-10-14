@@ -73,28 +73,15 @@ footer > p {
     background-image: url(assets/img/studentsbg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-<<<<<<< Updated upstream
     background-size: cover;
     margin: -2.5vh -2.5vw 2rem -2.5vw;
     background-position: absolute;
-=======
-    background-size: 100%;
-    padding-inline-start: 0;
-    background-position: center top;
->>>>>>> Stashed changes
   }
 
 
   header > div {
-<<<<<<< Updated upstream
-=======
-    width: 95vw;
-    margin: auto;
-    position: absolute;
->>>>>>> Stashed changes
     position: relative;
     top: 4rem;
-<<<<<<< Updated upstream
     left: 2.5vw;
     right: 2.5vw;
     color: white;
@@ -103,22 +90,6 @@ footer > p {
   }
   }
 
-=======
-    background-color: #c5192d;
-    color: white;
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-  header h1 {
-    padding-top: 4rem;
-  }
-
-  main {
-    margin-top: 2rem;
-    background-color: whitesmoke;
-    box-shadow: 0 0 1px 0 darkgrey;
-  }
->>>>>>> Stashed changes
 
   #intro-container {
     background-color: #c5192d;
@@ -156,25 +127,6 @@ footer > p {
     content: "\1F4DA";
   }
 
-<<<<<<< Updated upstream
-=======
-  h1 {
-    font-size: 4rem;
-    font-family: "montserrat", sans-serif;
-  }
-
-  h2 {
-    padding: 2rem 2rem 0 2rem;
-    font-size: 2.2rem;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  p {
-    padding: 0 2rem;
-    max-width: 70ch;
-    line-height: 1.5;
-  }
->>>>>>> Stashed changes
 
   img {
     padding: 0 2rem;
@@ -449,5 +401,4 @@ footer > p {
   
   }
 
-}
 }
