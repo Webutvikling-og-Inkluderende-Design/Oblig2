@@ -86,7 +86,7 @@ footer > p {
   header h1 {
     text-align: center;
     padding: 4rem 2rem 0 2rem;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
   header p {
     padding-bottom: 2rem;
@@ -95,9 +95,9 @@ footer > p {
 
   #intro-container {
     position: relative;
-    top: 4rem;
+    top: 0rem;
     background-color: #c5192d;
-    margin-top: auto; margin-left: auto; margin-right: auto; margin-bottom: 4rem;
+    margin-top: 6rem; margin-left: auto; margin-right: auto; margin-bottom: 4rem;
   }
 
   ul {
