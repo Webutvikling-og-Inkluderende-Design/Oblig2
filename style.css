@@ -326,6 +326,7 @@ footer > p {
   #intro-container {
     padding: 2rem 1rem 0rem 1rem;
     margin: 0.5rem;
+    margin-left: auto; margin-right: auto;
     columns: 2;
     background-image: conic-gradient(whitesmoke 0deg 180deg, #c5192d 180deg 360deg);
   }
