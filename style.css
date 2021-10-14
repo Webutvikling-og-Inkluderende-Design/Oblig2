@@ -185,8 +185,10 @@ footer > p {
     margin-left: auto; margin-right: auto;
     columns: 2;
     background-image: conic-gradient(whitesmoke 0deg 180deg, #c5192d 180deg 360deg);
+    border-bottom: 0.1px solid #c3cfe2;
 
   }
+
 
   ul {
     padding-inline-start: 0;
@@ -226,6 +228,7 @@ footer > p {
 
   article:nth-child(2){
     display: inline-block;
+    border-bottom: 0.1px solid #c3cfe2;
  
   }
 
@@ -243,6 +246,7 @@ footer > p {
 
   article:nth-child(3){
     display: inline-block;
+    border-bottom: 0.1px solid #c3cfe2;
   }
 
   article:nth-child(3) > div{
@@ -328,6 +332,7 @@ footer > p {
     margin: 0.5rem;
     columns: 2;
     background-image: conic-gradient(whitesmoke 0deg 180deg, #c5192d 180deg 360deg);
+    border-bottom: 0.1px solid #c3cfe2;
   }
 
   ul {
@@ -369,6 +374,7 @@ footer > p {
 
   article:nth-child(2){
     display: inline-block;
+    border-bottom: 0.1px solid #c3cfe2;
  
   }
 
@@ -386,6 +392,7 @@ footer > p {
 
   article:nth-child(3){
     display: inline-block;
+    border-bottom: 0.1px solid #c3cfe2;
   }
 
   article:nth-child(3) > div{
