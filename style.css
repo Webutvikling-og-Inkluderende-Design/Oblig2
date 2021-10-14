@@ -92,12 +92,11 @@ footer > p {
     padding-bottom: 2rem;
   }
 
-
   #intro-container {
     position: relative;
     top: 0rem;
     background-color: #c5192d;
-    margin-top: 6rem; margin-left: auto; margin-right: auto; margin-bottom: 4rem;
+    margin-top: 6rem; margin-left: auto; margin-right: auto; margin-bottom: 0;
   }
 
   #intro-container h2 {
@@ -336,8 +335,6 @@ footer > p {
 
   }
 
-  
-
   #intro-container {
     padding: 5rem 1rem 0rem 1rem;
     margin: 0.5rem;
@@ -345,7 +342,7 @@ footer > p {
     columns: 2;
     background-image: conic-gradient(whitesmoke 0deg 180deg, #c5192d 180deg 360deg);
     border-bottom: 0.1px solid #c3cfe2;
-    margin-top: 5rem;
+    margin-top: 20%;
   }
 
   ul {
