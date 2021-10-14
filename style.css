@@ -60,7 +60,6 @@ footer > p {
   }
 
   header {
-    height: 55vh;
     padding-top: 2rem;
     text-align: center;
     background-image: url(assets/img/studentsbg.png);
@@ -73,6 +72,7 @@ footer > p {
 
 
   header > div {
+    height: 55vh;
     width: 95vw;
     position: relative;
     top: 4rem;
