@@ -44,8 +44,6 @@ footer > p {
   padding: 2rem 2rem;
 }
 
-
-
 /******    SCREEN < 600px   ******/
 @media only screen and (max-width: 600px) {
   body {
@@ -67,7 +65,6 @@ footer > p {
     background-attachment: fixed;
     background-size: cover;
     margin: -2.5vh -2.5vw 2rem -2.5vw;
-    background-position: absolute;
   }
 
 
