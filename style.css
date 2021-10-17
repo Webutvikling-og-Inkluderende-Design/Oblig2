@@ -43,6 +43,10 @@ footer > p {
   padding: 2rem 2rem;
 }
 
+body {
+  margin: 0;
+}
+
 /****** MOBILE SCREEN < 600px   ******/
 @media only screen and (max-width: 600px) {
   body {
@@ -63,7 +67,6 @@ footer > p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0 -2.5vw 0 -2.5vw;
     position: relative;
     background-position: center top;
 
@@ -169,7 +172,6 @@ footer {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    margin: 0 -2.5vw 0 -2.5vw;
     background-position: center top;
   }
 
